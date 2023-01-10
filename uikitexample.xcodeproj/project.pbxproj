@@ -13,6 +13,7 @@
 		64887C402965D75A0088F4E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64887C3F2965D75A0088F4E4 /* Assets.xcassets */; };
 		64887C4B2965DDD70088F4E4 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64887C4A2965DDD70088F4E4 /* Storyboard.storyboard */; };
 		6490E793296C951300ABC16C /* SimpraButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6490E792296C951300ABC16C /* SimpraButton.swift */; };
+		64CB3605296DE7380073EF80 /* SimpraCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CB3604296DE7380073EF80 /* SimpraCollectionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		64887C442965D75A0088F4E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64887C4A2965DDD70088F4E4 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		6490E792296C951300ABC16C /* SimpraButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpraButton.swift; sourceTree = "<group>"; };
+		64CB3604296DE7380073EF80 /* SimpraCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpraCollectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				6490E792296C951300ABC16C /* SimpraButton.swift */,
+				64CB3604296DE7380073EF80 /* SimpraCollectionView.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				64887C3B2965D7580088F4E4 /* ViewController.swift in Sources */,
 				6490E793296C951300ABC16C /* SimpraButton.swift in Sources */,
+				64CB3605296DE7380073EF80 /* SimpraCollectionView.swift in Sources */,
 				64887C372965D7580088F4E4 /* AppDelegate.swift in Sources */,
 				64887C392965D7580088F4E4 /* SceneDelegate.swift in Sources */,
 			);
