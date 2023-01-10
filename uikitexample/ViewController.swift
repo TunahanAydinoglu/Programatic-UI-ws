@@ -11,9 +11,13 @@ class ViewController: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
-    // Do any additional setup after loading the view.
-  }
+		
+    view.backgroundColor = .white
+    let button: SimpraButton = SimpraButton()
 
+    view.addSubview(button)
+		button.pinToSuperView(position: .center)
+  }
 
 }
 
